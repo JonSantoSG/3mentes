@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+  color: #0e1b25
+}
+
+html, body{
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1{
+  font-family: "Poetsen One", sans-serif;
+}
+
+h2{
+  font-family: "Poetsen One", sans-serif;
+  font-size: 14px;
+}
+
+header,footer{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  text-align: center;
+
+  width: 85%;
+  
+}
+
+blockquote{
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+main{
+  height: 60%;
+  margin: auto;
+  padding: 3%;
+  border: solid 1px #325d81;
+  background-color: #325d81;
+  border-radius: 30px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+h3{
+  margin-bottom: 8%;
+  color: #0e1b25;
+  font-family: "Roboto", sans-serif;
+}
+
+button{
+  font-family: "Roboto", sans-serif;
+  margin-top: 8%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #4682b4;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+button:hover{
+  background-color: #b5cfe3;
+  color: #0e1b25
+}
